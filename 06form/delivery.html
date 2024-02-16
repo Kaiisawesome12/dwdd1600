@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>GIGI Matcha: Home</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Come and try the Best Matcha Around">
+        <meta name="author" content="Kai Garcia"> <link rel="stylesheet" href="gigi.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>GIGI Matcha</h1>
+            <p>The Best Matcha Around</p>
+        </header>
+        <!-- Start of the page Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About GIGI's</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="delivery.html">Request a Matcha Delivery</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page Content -->
+        <main>
+        <h1>Request a Matcha Delivery</h1>
+          <form method="get" class="myForm" action="thanks.html">
+        
+            <fieldset>
+            <legend>Customer Information</legend>
+          <label>First Name*<input type="text" name="fname" required></label>  
+           <label>Last Name*<input type="text" name="lname" required></label>
+                 <label>Email Address*<input type="email" name="email" required></label>
+             <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+             </fieldset> 
+             
+             <fieldset>
+             <legend>Matcha Flavor</legend>
+             <label><input type="radio" name="method" value="lavender">Lavender Matcha (floral) </label>
+              <label><input type="radio" name="method" value="vanilla">Vanilla Matcha (tastes like vanilla icecream)</label>   
+               <label><input type="radio" name="method" value="strawberry">Strawberry Matcha (The sweetest)</label>   
+             </fieldset>
+             
+             <fieldset>
+             <legend>Deliver Option</legend>
+             
+            <label><input type="checkbox" name="door" value="chosen"> At the Door</label>
+            <label><input type="checkbox" name="street" value="chosen"> From the Street</label>
+            <label><input type="checkbox" name="in person" value="chosen"> In person</label>
+                 <label><input type="checkbox" name="garage" value="chosen"> Inside Garage</label>
+             
+                <label>Preferred Deliver Time
+                 <select name="time">
+                 <option value="none">Please Select</option>
+                 <option value="Morning">Between 7:30am and 12:00pm</option>
+                    <option value="noon">Between 12:00pm and 2:00pm</option>
+                    <option value="afternoon">Between 2:00pm and 4:00pm</option>
+                    <option value="evening">Between 4:00pm and closing 5:00pm</option>
+                 
+                 </select> </label>
+                 
+             </fieldset>
+             
+             <label>Comments
+             <textarea name="comments">Please add any special instructions</textarea>
+             </label>
+             
+             
+       <input type="submit" value="Send Delivery Request">
+         </form>
+  
+            
+        
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; GIGI's Matcha &bull; <a href="mailto:chefkai8@gmail.com">Email Us</a></p>
+        </footer>
+   
+    </body>
+
+</html>
